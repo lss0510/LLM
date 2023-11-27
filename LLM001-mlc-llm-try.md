@@ -145,6 +145,6 @@ python3 -m mlc_llm.build --hf-path RedPajama-INCITE-Chat-3B-v1 --target cuda --q
 ```
 执行完成后会在当前命令所在目录生成dist子目录，存放量化后的模型和配置文件。运行之前build文件夹下生成的mlc_chat_cli，即可启动大模型。
 ```bash
-./build/mlc_chat_cli --model RedPajama-INCITE-Chat-3B-v1
+./build/mlc_chat_cli --model RedPajama-INCITE-Chat-3B-v1-q4f16_1
 ```
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/34282721/1700532896374-2d0e45c3-5608-4bc7-bce1-2741adacfb68.png#averageHue=%232d0a23&clientId=u701571c9-0037-4&from=paste&height=314&id=uc3add532&originHeight=314&originWidth=729&originalType=binary&ratio=1&rotation=0&showTitle=false&size=59809&status=done&style=none&taskId=uc3eda9f6-379c-4584-925b-8570168821a&title=&width=729)
